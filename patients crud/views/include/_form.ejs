@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Crud Patient</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+   
+        <!--form handling-->
+        <form method="POST" id="update_user">
+        <div class="new_user"></div>
+           <div class="form-group">
+            <label for="Prenom" class="text-light">Prenom</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name= "Prenom" value="" placeholder="Abdel">
+           </div>
+
+           <div class="form-group">
+               <label for="Nom" class="text-light">Nom</label>
+               <input type="hidden" name="id" value="">
+               <input type="text" name= "Nom" value="" placeholder="Zniani">
+              </div>
+
+              <div class="form-group">
+               <label for="Cin" class="text-light">Cin</label>
+               <input type="hidden" name="id" value="">
+               <input type="text" name= "Cin" value="" placeholder="Zniani">
+              </div>
+
+              <div class="form-group">
+               <label for="Email" class="text-light">Email</label>
+               <input type="text" name= "Email" value="" placeholder="exemple@gmail.com">
+              </div>
+
+              <div class="form-group">
+               <label for="Telephone" class="text-light">Telephone</label>
+               <input type="hidden" name="id" value="">
+               <input type="text" name= "Telephone" value="" placeholder="0600227755">
+              </div>
+
+              <div class="form-group">
+                  <button type="submit" class="btn text-dark update">Save</button>
+              </div>
+       </form>
+   
+<!--/site-main-->
+  </header>
+
+
+</body>
+</html>
+
+<!--include footer-->
+<%- include('include/_footer') %>
+<!--include footer-->
